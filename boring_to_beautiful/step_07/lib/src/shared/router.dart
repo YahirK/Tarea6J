@@ -20,15 +20,19 @@ final artistsProvider = ArtistsProvider();
 final playlistsProvider = PlaylistsProvider();
 
 const List<NavigationDestination> destinations = [
-  NavigationDestination(label: 'Home', icon: Icon(Icons.home), route: '/'),
+  NavigationDestination(
+    label: 'Home',
+    icon: Icon(Icons.arrow_right_rounded),
+    route: '/',
+  ),
   NavigationDestination(
     label: 'Playlists',
-    icon: Icon(Icons.playlist_add_check),
+    icon: Icon(Icons.arrow_right_rounded),
     route: '/playlists',
   ),
   NavigationDestination(
     label: 'Artists',
-    icon: Icon(Icons.people),
+    icon: Icon(Icons.arrow_right_rounded),
     route: '/artists',
   ),
 ];
